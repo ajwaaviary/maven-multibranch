@@ -3,14 +3,14 @@ pipeline
     agent any
     stages
     {
-        stage ('Staged to build CI-CD')
+        stage ('Staged to build Branch1')
         {
             steps
             {
                 git 'https://github.com/ajwaaviary/maven-new.git'
             }
         }
-        stage('Build')
+        stage('Build-Branch1')
         {
             steps
             {
